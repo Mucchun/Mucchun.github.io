@@ -1,0 +1,225 @@
+html{
+    margin: 0px;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgb(90, 207, 172);
+    margin; 0px;
+    font-size: 1.45vw;
+    line-height: 1.6;
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+
+p {
+    font-size: 0.5em;
+}
+
+h1{
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif; 
+    box-shadow: 10px 10px 15px 5px rgb(96, 11, 117); 
+    width: 18%; 
+    border-radius: 15%;
+    text-shadow:
+    1px 1px 0px black,
+    -1px 1px 0px rgb(226, 25, 25),
+    1px -1px 0px black,
+    -1px -1px 0px rgb(241, 243, 250) ;
+    
+}
+}
+
+cite > a {
+display: inline-block;
+width: 100px;
+height: 50px;
+}
+
+ul{
+
+    margin: 0px;
+
+}
+
+#nav-ul{
+
+display: flex;
+
+}
+
+#nav-ul > li{
+    padding: 8px;
+    margin: 16px; 
+}
+
+body > header
+{
+    background-color: rgb(203, 235, 118);
+    color: rgb(204, 91, 204);
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+body > header > nav > ul{
+    list-style: none;
+    text text-decoration: none;
+}
+
+.navbutton {
+
+color: rgb(223, 72, 72);
+text text-decoration: none;
+padding: 12px;
+border: 1px solid red;
+border-radius: %10; 
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+}
+
+#main-content aside{
+    width: %20;
+    justify-content: space-evenly;
+}
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer{
+    background-color: rgb(194, 226, 142);
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+    color: white; 
+    text-decoration: none; 
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+a:focus, .navbutton:focus {
+    outline: 3px solid #FFD700; /* Example color for focus outline */
+    outline-offset: 2px;
+}
+
+.navbutton:hover {
+    background-color: #f39c12;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbutton, a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input, select, textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+header {
+    animation: slideIn 1s ease-out;
+   
+}
+
+.hero {
+    background: url('game.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3d2e;
+}
+
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+}
+
+.carousel-item {
+    min-width: 50%;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 50%;
+    display: block;
+}
+
+.icon-link {
+    color: #ffe6e6;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.icon-link i {
+    margin-right: 2px;
+}
+
+
